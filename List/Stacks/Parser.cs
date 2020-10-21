@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Stacks
+namespace List
 {
     public static class Parser
     {
@@ -12,9 +12,11 @@ namespace Stacks
             var list = new List<string> {"+", "-", ":", "^", "(", ")", "*"};
             foreach (var token in line.Select(t => t.ToString()))
             {
+                if(token==" ") continue;
                 if (list.Contains(token))
                 {
-                    result.Add(value);
+                    if(value!="")
+                        result.Add(value);
                     value = "";
                     result.Add(token);
                 }

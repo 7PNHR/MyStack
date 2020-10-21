@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using System;
 
-namespace Stacks
+namespace List
 {
     public class Calculator
     {

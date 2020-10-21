@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Stacks
+namespace List
 {
     public class Prog
     {

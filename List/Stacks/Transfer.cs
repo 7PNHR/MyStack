@@ -1,8 +1,7 @@
 ﻿using System;
-using System.IO;
 using System.Collections.Generic;
 
-namespace Stacks
+namespace List
 {
     public class Transfer
     {
@@ -63,6 +62,7 @@ namespace Stacks
                 }
             }
             while (stack.Top() != null) result += stack.Pop() + " ";
+            Console.WriteLine(result);
             return result;
         }
     }

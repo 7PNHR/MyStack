@@ -1,4 +1,4 @@
-﻿namespace Stacks
+﻿namespace List
 {
     public class StackItem<T>
     {

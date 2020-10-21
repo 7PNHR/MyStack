@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Stacks
+namespace List
 {
     public class MyStack<T>
     {

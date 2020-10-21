@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace Stacks
+namespace List
 {
-    public class TimeMeasure
+    public static class TimeMeasure
     {
         public static double GetMeasuredTime(string path)
         {
