@@ -9,11 +9,10 @@ namespace List
     {
         static void Main(string[] args)
         {
-            /*var path = Console.ReadLine();
+            var path = Console.ReadLine();
             var time = TimeMeasure.GetMeasuredTime(path);
-            File.WriteAllText(File.ReadAllText(path).Split(' ').Length-1 + "_"
-                              +DateTime.Now.Millisecond+ "_"
-                              +".txt",time.ToString(CultureInfo.InvariantCulture));*/
+            File.WriteAllText(path,time);
+            
             var calc = new Calculator("inf.txt");
             var result = calc.Calculate();
             Console.WriteLine();

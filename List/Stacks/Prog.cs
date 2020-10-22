@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Collections.Generic;
 
 namespace List
 {
@@ -44,11 +45,10 @@ namespace List
             Console.WriteLine("Стек выведен(Print)");
         }
 
-        public static void Run(string path)
+        public static void Run(IEnumerable<string> lines)
         {
             var stack = new MyStack<string>();
-            var commands = File.ReadAllText(path).Split(' ');
-            foreach (var command in commands)
+            foreach (var command in lines)
             {
                 if (command.Contains("1"))
                     Push(stack, command.Split(',')[1]);
