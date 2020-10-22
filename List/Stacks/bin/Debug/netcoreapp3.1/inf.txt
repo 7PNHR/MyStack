@@ -1,8 +1,9 @@
-a+b^d*ln(3)+(sqrt(f)-sin(c)*2)+100:2-(e*cos(alpha))
+a+b^d*ln(t)+(sqrt(f+9)-sin(c)*2)+100:2-(e*cos(alpha))
 a=10
 b=2
-c=3
+c=0
 d=2
-f=16
 e=12
-alpha=0
+f=16
+alpha=18
+t=23,45

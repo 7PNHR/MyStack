@@ -32,10 +32,7 @@ namespace List
             return value;
         }
 
-        public bool IsEmpty()
-        {
-            return _tail == null ? true : false;
-        }
+        public bool IsEmpty() => _tail == null ? true : false;
 
         public void Print()
         {
